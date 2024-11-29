@@ -1,0 +1,175 @@
+/* Your styles here */
+/* html font size */
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat:wght@400..700&family=Fondamento:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Caveat:wght@400..700&family=Fondamento:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color:#393d41;
+    line-height: 1.65;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1em;
+}
+
+header img{
+    width: 100px;
+    height: auto;
+    
+}
+
+#sezione1 {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+}
+
+#sezione1 h1{
+    color: #25a2c3;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    line-height: 1;
+}
+
+#sezione1 p {
+    padding: 0 1em 1em 1em;
+}
+
+#sezione1 button{
+    background-color: #f04c2f;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 1em 2em;
+    margin: 1em 0;
+    border-radius: 10px;
+    margin-bottom: 4em;
+}
+
+#sezione2{
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+#sezione2 h2{
+    color: #25a2c3;
+    font-weight: bold;
+}
+
+#sezione2 img{
+    width: 40%;
+    margin-right: 3em;
+    vertical-align: middle;
+    text-align: left;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+#vantaggi{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 40%;
+}
+
+#sezione3{
+    background-color: orangered;
+    padding: 1em 1em 2em 1em;
+    color: white;
+    margin-bottom: 3em;
+}
+
+#sezione3 h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 1.3em 1em 1em 1.2em;
+}
+
+#sezione3 p{
+    margin-bottom: 1em;
+    font-style: italic;
+    font-size: 1em;
+}
+
+#sezione3 cite span {
+    font-size: 0.7em;
+}
+
+aside section div{
+    width: 30%;
+    height: 20em;
+    border: 1px solid  #dee1e3;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside section div img{
+    width: 100%;
+    height: 50%;  
+}
+
+aside section div h4{
+    color: #25a2c3;
+    padding:0, 1em, 1em, 1em;
+    font-weight: bold;
+}
+
+aside section div p{
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+aside section:last-child{
+    margin-bottom: 4em;
+}
+
+footer{
+    background-color:  #25a2c3;
+    color: white;
+}
+
+footer h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+footer address a {
+    color: #c8e7f0;
+}
+footer div a {
+    color: #c8e7f0;
+}
+footer address p:last-child{
+    padding-bottom: 1em;
+}
+
+footer hr{
+    color: white;
+    width: 50%;
+    margin: auto;
+}
+
+#copyright{
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
